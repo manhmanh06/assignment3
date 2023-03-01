@@ -1,0 +1,46 @@
+@media screen and (max-width: 767px) {
+  #target,
+  #personal-info {
+    padding: 24px;
+  }
+
+  .nav-bar-img {
+    display: none;
+  }
+  .nav-bar-list {
+    flex-direction: column;
+  }
+
+  #nav-bar a,
+  .nav-bar-list:last-child {
+    border: none;
+    text-align: left;
+    padding: 12px;
+  }
+  .certificate-item {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .certificate-item3 {
+    border: none;
+  }
+
+  #footer li {
+    margin: 4px;
+  }
+  #footer span {
+    display: none;
+  }
+  #footer .icon {
+    font-size: 48px;
+  }
+  .certificate-img {
+    width: 100%;
+  }
+  .certificate-item {
+    flex-direction: column;
+  }
+  .certificate-list::after,
+  .certificate-list::before {
+    display: none;
+  }
+}

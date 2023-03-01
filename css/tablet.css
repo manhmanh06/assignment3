@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #target,
+  #personal-info {
+    padding: 24px;
+  }
+
+  .nav-bar-img {
+    display: none;
+  }
+  .certificate-item {
+    flex-direction: column;
+  }
+  .certificate-img {
+    width: 100%;
+  }
+}
